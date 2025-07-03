@@ -1,0 +1,82 @@
+image: docker:latest
+services:
+  - docker:dind
+
+stages:
+  - build
+  - package
+  - deploy
+
+variables:
+  DOCKER_DRIVER: overlay
+
+cache:
+  paths:
+    - node_modules/
+# test
+build-image-test:
+  stage: build
+  script:
+    - docker build -t artisandigitalasia/front-attable:test-staging .
+  only:
+    - test
+
+docker-build-test:
+  stage: package
+  script:
+    - docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
+    - docker push artisandigitalasia/front-attable:test-staging
+  only:
+    - test
+
+docker-compose-test:
+  stage: deploy
+  before_script:
+    - apk add --no-cache py-pip   # install pip
+    - pip install docker-compose~=1.23.0
+    - apk add --update curl && rm -rf /var/cache/apk/*
+    - mkdir test-staging-front
+    - cp -f docker-compose-test-staging.yml  test-staging-front/docker-compose.yml
+    - cd test-staging-front
+  script:
+    - docker-compose -H $DOCKER_HOST down
+    - docker-compose -H $DOCKER_HOST pull
+    - docker-compose -H $DOCKER_HOST up -d
+    - docker -H $DOCKER_HOST system prune --force
+  only:
+    - test
+#End test
+
+# staging
+build-image-staging:
+  stage: build
+  script:
+    - docker build -t artisandigitalasia/front-attable:staging .
+  only:
+    - staging
+
+docker-build-staging:
+  stage: package
+  script:
+    - docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
+    - docker push artisandigitalasia/front-attable:staging
+  only:
+    - staging
+
+docker-compose-staging:
+  stage: deploy
+  before_script:
+    - apk add --no-cache py-pip   # install pip
+    - pip install docker-compose~=1.23.0
+    - apk add --update curl && rm -rf /var/cache/apk/*
+    - mkdir staging-front
+    - cp -f docker-compose-staging.yml  staging-front/docker-compose.yml
+    - cd staging-front
+  script:
+    - docker-compose -H $DOCKER_HOST down
+    - docker-compose -H $DOCKER_HOST pull
+    - docker-compose -H $DOCKER_HOST up -d
+    - docker -H $DOCKER_HOST system prune --force
+  only:
+    - staging
+#End staging

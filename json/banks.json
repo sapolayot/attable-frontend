@@ -1,0 +1,252 @@
+{
+  "data": [
+    {
+      "shortword": "bbl",
+      "code": "002",
+      "color": "#1e4598",
+      "value": "BANGKOK BANK PUBLIC COMPANY LTD.",
+      "label": "ธนาคารกรุงเทพ",
+      "img": "src/assets/payment/logo/bbl.png"
+    },
+    {
+      "shortword": "kbank",
+      "code": "004",
+      "color": "#138f2d",
+      "value": "KASIKORNBANK PUBLIC COMPANY LTD.",
+      "label": "ธนาคารกสิกรไทย",
+      "img": "src/assets/payment/logo/kbank.png"
+    },
+    {
+      "shortword": "rbs",
+      "code": "005",
+      "color": "#032952",
+      "value": "THE ROYAL BANK OF SCOTLAND PLC",
+      "label": "ธนาคาร เดอะรอยัลแบงค์อ๊อฟสกอตแลนด์",
+      "img": "src/assets/payment/logo/rbs.png"
+    },
+    {
+      "shortword": "ktb",
+      "code": "006",
+      "color": "#1ba5e1",
+      "value": "KRUNG THAI BANK PUBLIC COMPANY LTD.",
+      "label": "ธนาคารกรุงไทย",
+      "img": "src/assets/payment/logo/ktb.png"
+    },
+    {
+      "shortword": "jpm",
+      "code": "008",
+      "color": "#321c10",
+      "value": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION",
+      "label": "เจพีมอร์แกนเชส",
+      "img": "src/assets/payment/logo/jpm.png"
+    },
+    {
+      "shortword": "mufg",
+      "code": "010",
+      "color": "#d61323",
+      "value": "THE BANK OF TOKYO-MITSUBISHI UFJ, LTD.",
+      "label": "ธนาคารแห่งโตเกียว-มิตซูบิชิ ยูเอฟเจ",
+      "img": "src/assets/payment/logo/mufg.png"
+    },
+    {
+      "shortword": "tmb",
+      "code": "011",
+      "color": "#1279be",
+      "value": "TMB BANK PUBLIC COMPANY LIMITED.",
+      "label": "ธนาคารทหารไทย",
+      "img": "src/assets/payment/logo/tmb.png"
+    },
+    {
+      "shortword": "scb",
+      "code": "014",
+      "color": "#4e2e7f",
+      "value": "SIAM COMMERCIAL BANK PUBLIC COMPANY LTD.",
+      "label": "ธนาคารไทยพาณิชย์",
+      "img": "src/assets/payment/logo/scb.png"
+    },
+    {
+      "shortword": "citi",
+      "code": "017",
+      "color": "#1583c7",
+      "value": "CITIBANK, N.A.",
+      "label": "ธนาคารซิตี้แบงค์",
+      "img": "src/assets/payment/logo/citi.png"
+    },
+    {
+      "shortword": "smbc",
+      "code": "018",
+      "color": "#a0d235",
+      "value": "SUMITOMO MITSUI BANKING CORPORATION",
+      "label": "ธนาคารซูมิโตโม มิตซุย แบงค์กิ้ง คอร์ปอเรชั่น",
+      "img": "src/assets/payment/logo/smbc.png"
+    },
+    {
+      "shortword": "sc",
+      "code": "020",
+      "color": "#0f6ea1",
+      "value": "STANDARD CHARTERED BANK (THAI) PUBLIC COMPANY LIMITED",
+      "label": "สแตนดาร์ดชาร์เตอร์ด",
+      "img": "src/assets/payment/logo/sc.png"
+    },
+    {
+      "shortword": "cimb",
+      "code": "022",
+      "color": "#7e2f36",
+      "value": "CIMB THAI BANK PUPBLIC COMPANY LTD.",
+      "label": "ธนาคารซีไอเอ็มบีไทย",
+      "img": "src/assets/payment/logo/cimb.png"
+    },
+    {
+      "shortword": "uob",
+      "code": "024",
+      "color": "#0b3979",
+      "value": "UNITED OVERSEAS BANK (THAI) PUBLIC COMPANY LIMITED",
+      "label": "ธนาคารยูโอบี",
+      "img": "src/assets/payment/logo/uob.png"
+    },
+    {
+      "shortword": "bay",
+      "code": "025",
+      "color": "#fec43b",
+      "value": "BANK OF AYUDHYA PUBLIC COMPANY LTD.",
+      "label": "ธนาคารกรุงศรีอยุธยา",
+      "img": "src/assets/payment/logo/bay.png"
+    },
+    {
+      "shortword": "mega",
+      "code": "026",
+      "color": "#815e3b",
+      "value": "MEGA INTERNATIONAL COMMERCIAL BANK PUBLIC COMPANY LIMITED",
+      "label": "ธนาคารเมกะสากลพาณิชย์",
+      "img": "src/assets/payment/logo/mega.png"
+    },
+    {
+      "shortword": "boa",
+      "code": "027",
+      "color": "#e11e3c",
+      "value": "BANK OF AMERICA, NATIONAL ASSOCIATION",
+      "label": "แบงก์ออฟอเมริกาคอร์ปอเรชั่น",
+      "img": "src/assets/payment/logo/boa.png"
+    },
+    {
+      "shortword": "cacib",
+      "code": "028",
+      "color": "#0e765b",
+      "value": "CREDIT AGRICOLE CORPORATE AND INVESTMENT BANK",
+      "label": "ธนาคารเครดิต อะกริโคล",
+      "img": "src/assets/payment/logo/cacib.png"
+    },
+    {
+      "shortword": "gsb",
+      "code": "030",
+      "color": "#eb198d",
+      "value": "THE GOVERNMENT SAVINGS BANK",
+      "label": "ธนาคารออมสิน",
+      "img": "src/assets/payment/logo/gsb.png"
+    },
+    {
+      "shortword": "hsbc",
+      "code": "031",
+      "color": "#fd0d1b",
+      "value": "THE HONGKONG AND SHANGHAI BANKING CORPORATION LTD.",
+      "label": "ฮ่องกงและเซี่ยงไฮ้แบงกิ้งคอร์ปอเรชั่น",
+      "img": "src/assets/payment/logo/hsbc.png"
+    },
+    {
+      "shortword": "db",
+      "code": "032",
+      "color": "#0522a5",
+      "value": "DEUTSCHE BANK AG.",
+      "label": "ดอยซ์แบงก์",
+      "img": "src/assets/payment/logo/db.png"
+    },
+    {
+      "shortword": "ghb",
+      "code": "033",
+      "color": "#f57d23",
+      "value": "THE GOVERNMENT HOUSING BANK",
+      "label": "ธนาคารอาคารสงเคราะห์",
+      "img": "src/assets/payment/logo/ghb.png"
+    },
+    {
+      "shortword": "baac",
+      "code": "034",
+      "color": "#4b9b1d",
+      "value": "BANK FOR AGRICULTURE AND AGRICULTURAL COOPERATIVES",
+      "label": "ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตร",
+      "img": "src/assets/payment/logo/baac.png"
+    },
+    {
+      "shortword": "mb",
+      "code": "039",
+      "color": "#150b78",
+      "value": "MIZUHO BANK, LTD.",
+      "label": "ธนาคาร มิซูโฮ คอร์ปอเรต",
+      "img": "src/assets/payment/logo/mb.png"
+    },
+    {
+      "shortword": "bnp",
+      "code": "045",
+      "color": "#14925e",
+      "value": "BNP PARIBAS",
+      "label": "บีเอ็นพี พารีบาส์",
+      "img": "src/assets/payment/logo/bnp.png"
+    },
+    {
+      "shortword": "tbank",
+      "code": "065",
+      "color": "#fc4f1f",
+      "value": "THANACHART BANK PUBLIC COMPANY LTD.",
+      "label": "ธนาคารธนชาต",
+      "img": "src/assets/payment/logo/tbank.png"
+    },
+    {
+      "shortword": "ibank",
+      "code": "066",
+      "color": "#184615",
+      "value": "ISLAMIC BANK OF THAILAND",
+      "label": "ธนาคารอิสลามแห่งประเทศไทย",
+      "img": "src/assets/payment/logo/ibank.png"
+    },
+    {
+      "shortword": "tisco",
+      "code": "067",
+      "color": "#12549f",
+      "value": "TISCO BANK PUBLIC COMPANY LIMITED",
+      "label": "ธนาคารทิสโก้",
+      "img": "src/assets/payment/logo/tisco.png"
+    },
+    {
+      "shortword": "kk",
+      "code": "069",
+      "color": "#199cc5",
+      "value": "KIATNAKIN BANK PUBLIC COMPANY LIMITED",
+      "label": "ธนาคารเกียรตินาคิน",
+      "img": "src/assets/payment/logo/kk.png"
+    },
+    {
+      "shortword": "icbc",
+      "code": "070",
+      "color": "#c50f1c",
+      "value": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (THAI) PUBLIC COMPANY LIMITED",
+      "label": "ธนาคารไอซีบีซี",
+      "img": "src/assets/payment/logo/icbc.png"
+    },
+    {
+      "shortword": "tcrb",
+      "code": "071",
+      "color": "#0a4ab3",
+      "value": "THE THAI CREDIT RETAIL BANK PUBLIC COMPANY LIMITED",
+      "label": "ธนาคารไทยเครดิต",
+      "img": "src/assets/payment/logo/tcrb.png"
+    },
+    {
+      "shortword": "lhb",
+      "code": "073",
+      "color": "#6d6e71",
+      "value": "LAND AND HOUSES BANK PUBLIC COMPANY LIMITED",
+      "label": "ธนาคารแลนด์ แอนด์ เฮ้าส์",
+      "img": "src/assets/payment/logo/lhb.png"
+    }
+  ]
+}

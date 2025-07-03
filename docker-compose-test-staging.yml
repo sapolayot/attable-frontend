@@ -1,0 +1,29 @@
+version: '3.2'
+services:
+  attable-frontend-test:
+    image: artisandigitalasia/front-attable:test-staging
+    ports: 
+      - 1004:80
+    environment:
+      API_MODE: test-staging
+      ENDPOINT_URL_LOCAL: http://localhost:8080/graphql
+      ENDPOINT_URL_AUTHEN_LOCAL: http://localhost:8080/auth
+      #ENDPOINT_ROOT_LOCAL=
+      ENDPOINT_UPLOAD_DATA_LOCAL: http://localhost:8080/upload
+      ENDPOINT_MUTIPLE_UPLOAD_DATA_LOCAL: http://localhost:8080/uploadMultiple
+      ENDPOINT_URL_TEST_STAGING: https://attable-api-test.artisandigital.tech/graphql
+      ENDPOINT_URL_AUTHEN_TEST_STAGING: https://attable-api-test.artisandigital.tech/auth
+      #ENDPOINT_ROOT_TEST_STAGING=
+      ENDPOINT_UPLOAD_DATA_TEST_STAGING: https://attable-api-test.artisandigital.tech/upload
+      ENDPOINT_MUTIPLE_UPLOAD_DATA_TEST_STAGIN: https://attable-api-test.artisandigital.tech/uploadMultiple
+      ENDPOINT_URL_STAGING: https://attable-api.artisandigital.tech/graphql
+      ENDPOINT_URL_AUTHEN_STAGING: https://attable-api.artisandigital.tech/auth
+      #ENDPOINT_ROOT_STAGING=
+      ENDPOINT_UPLOAD_DATA_STAGING: https://attable-api.artisandigital.tech/upload
+      ENDPOINT_MUTIPLE_UPLOAD_DATA_STAGING: https://attable-api.artisandigital.tech/uploadMultiple
+      #ENDPOINT_URL_PRODUCTION=
+      #ENDPOINT_URL_AUTHEN_PRODUCTION=
+      #ENDPOINT_ROOT_PRODUCTION=
+      #ENDPOINT_UPLOAD_DATA_PRODUCTION=
+      #ENDPOINT_MUTIPLE_UPLOAD_DATA_LOCAL=
+    

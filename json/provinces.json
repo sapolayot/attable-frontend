@@ -1,0 +1,541 @@
+[
+    {
+        "id": "1",
+        "province_code": "10",
+        "values": "\u0e01\u0e23\u0e38\u0e07\u0e40\u0e17\u0e1e\u0e21\u0e2b\u0e32\u0e19\u0e04\u0e23   ",
+        "value": "Bangkok",
+        "geo_id": "2"
+    },
+    {
+        "id": "2",
+        "province_code": "11",
+        "values": "\u0e2a\u0e21\u0e38\u0e17\u0e23\u0e1b\u0e23\u0e32\u0e01\u0e32\u0e23   ",
+        "value": "Samut Prakan",
+        "geo_id": "2"
+    },
+    {
+        "id": "3",
+        "province_code": "12",
+        "values": "\u0e19\u0e19\u0e17\u0e1a\u0e38\u0e23\u0e35   ",
+        "value": "Nonthaburi",
+        "geo_id": "2"
+    },
+    {
+        "id": "4",
+        "province_code": "13",
+        "values": "\u0e1b\u0e17\u0e38\u0e21\u0e18\u0e32\u0e19\u0e35   ",
+        "value": "Pathum Thani",
+        "geo_id": "2"
+    },
+    {
+        "id": "5",
+        "province_code": "14",
+        "values": "\u0e1e\u0e23\u0e30\u0e19\u0e04\u0e23\u0e28\u0e23\u0e35\u0e2d\u0e22\u0e38\u0e18\u0e22\u0e32   ",
+        "value": "Phra Nakhon Si Ayutthaya",
+        "geo_id": "2"
+    },
+    {
+        "id": "6",
+        "province_code": "15",
+        "values": "\u0e2d\u0e48\u0e32\u0e07\u0e17\u0e2d\u0e07   ",
+        "value": "Ang Thong",
+        "geo_id": "2"
+    },
+    {
+        "id": "7",
+        "province_code": "16",
+        "values": "\u0e25\u0e1e\u0e1a\u0e38\u0e23\u0e35   ",
+        "value": "Loburi",
+        "geo_id": "2"
+    },
+    {
+        "id": "8",
+        "province_code": "17",
+        "values": "\u0e2a\u0e34\u0e07\u0e2b\u0e4c\u0e1a\u0e38\u0e23\u0e35   ",
+        "value": "Sing Buri",
+        "geo_id": "2"
+    },
+    {
+        "id": "9",
+        "province_code": "18",
+        "values": "\u0e0a\u0e31\u0e22\u0e19\u0e32\u0e17   ",
+        "value": "Chai Nat",
+        "geo_id": "2"
+    },
+    {
+        "id": "10",
+        "province_code": "19",
+        "values": "\u0e2a\u0e23\u0e30\u0e1a\u0e38\u0e23\u0e35",
+        "value": "Saraburi",
+        "geo_id": "2"
+    },
+    {
+        "id": "11",
+        "province_code": "20",
+        "values": "\u0e0a\u0e25\u0e1a\u0e38\u0e23\u0e35   ",
+        "value": "Chon Buri",
+        "geo_id": "5"
+    },
+    {
+        "id": "12",
+        "province_code": "21",
+        "values": "\u0e23\u0e30\u0e22\u0e2d\u0e07   ",
+        "value": "Rayong",
+        "geo_id": "5"
+    },
+    {
+        "id": "13",
+        "province_code": "22",
+        "values": "\u0e08\u0e31\u0e19\u0e17\u0e1a\u0e38\u0e23\u0e35   ",
+        "value": "Chanthaburi",
+        "geo_id": "5"
+    },
+    {
+        "id": "14",
+        "province_code": "23",
+        "values": "\u0e15\u0e23\u0e32\u0e14   ",
+        "value": "Trat",
+        "geo_id": "5"
+    },
+    {
+        "id": "15",
+        "province_code": "24",
+        "values": "\u0e09\u0e30\u0e40\u0e0a\u0e34\u0e07\u0e40\u0e17\u0e23\u0e32   ",
+        "value": "Chachoengsao",
+        "geo_id": "5"
+    },
+    {
+        "id": "16",
+        "province_code": "25",
+        "values": "\u0e1b\u0e23\u0e32\u0e08\u0e35\u0e19\u0e1a\u0e38\u0e23\u0e35   ",
+        "value": "Prachin Buri",
+        "geo_id": "5"
+    },
+    {
+        "id": "17",
+        "province_code": "26",
+        "values": "\u0e19\u0e04\u0e23\u0e19\u0e32\u0e22\u0e01   ",
+        "value": "Nakhon Nayok",
+        "geo_id": "2"
+    },
+    {
+        "id": "18",
+        "province_code": "27",
+        "values": "\u0e2a\u0e23\u0e30\u0e41\u0e01\u0e49\u0e27   ",
+        "value": "Sa Kaeo",
+        "geo_id": "5"
+    },
+    {
+        "id": "19",
+        "province_code": "30",
+        "values": "\u0e19\u0e04\u0e23\u0e23\u0e32\u0e0a\u0e2a\u0e35\u0e21\u0e32   ",
+        "value": "Nakhon Ratchasima",
+        "geo_id": "3"
+    },
+    {
+        "id": "20",
+        "province_code": "31",
+        "values": "\u0e1a\u0e38\u0e23\u0e35\u0e23\u0e31\u0e21\u0e22\u0e4c   ",
+        "value": "Buri Ram",
+        "geo_id": "3"
+    },
+    {
+        "id": "21",
+        "province_code": "32",
+        "values": "\u0e2a\u0e38\u0e23\u0e34\u0e19\u0e17\u0e23\u0e4c   ",
+        "value": "Surin",
+        "geo_id": "3"
+    },
+    {
+        "id": "22",
+        "province_code": "33",
+        "values": "\u0e28\u0e23\u0e35\u0e2a\u0e30\u0e40\u0e01\u0e29   ",
+        "value": "Si Sa Ket",
+        "geo_id": "3"
+    },
+    {
+        "id": "23",
+        "province_code": "34",
+        "values": "\u0e2d\u0e38\u0e1a\u0e25\u0e23\u0e32\u0e0a\u0e18\u0e32\u0e19\u0e35   ",
+        "value": "Ubon Ratchathani",
+        "geo_id": "3"
+    },
+    {
+        "id": "24",
+        "province_code": "35",
+        "values": "\u0e22\u0e42\u0e2a\u0e18\u0e23   ",
+        "value": "Yasothon",
+        "geo_id": "3"
+    },
+    {
+        "id": "25",
+        "province_code": "36",
+        "values": "\u0e0a\u0e31\u0e22\u0e20\u0e39\u0e21\u0e34   ",
+        "value": "Chaiyaphum",
+        "geo_id": "3"
+    },
+    {
+        "id": "26",
+        "province_code": "37",
+        "values": "\u0e2d\u0e33\u0e19\u0e32\u0e08\u0e40\u0e08\u0e23\u0e34\u0e0d   ",
+        "value": "Amnat Charoen",
+        "geo_id": "3"
+    },
+    {
+        "id": "27",
+        "province_code": "39",
+        "values": "\u0e2b\u0e19\u0e2d\u0e07\u0e1a\u0e31\u0e27\u0e25\u0e33\u0e20\u0e39   ",
+        "value": "Nong Bua Lam Phu",
+        "geo_id": "3"
+    },
+    {
+        "id": "28",
+        "province_code": "40",
+        "values": "\u0e02\u0e2d\u0e19\u0e41\u0e01\u0e48\u0e19   ",
+        "value": "Khon Kaen",
+        "geo_id": "3"
+    },
+    {
+        "id": "29",
+        "province_code": "41",
+        "values": "\u0e2d\u0e38\u0e14\u0e23\u0e18\u0e32\u0e19\u0e35   ",
+        "value": "Udon Thani",
+        "geo_id": "3"
+    },
+    {
+        "id": "30",
+        "province_code": "42",
+        "values": "\u0e40\u0e25\u0e22   ",
+        "value": "Loei",
+        "geo_id": "3"
+    },
+    {
+        "id": "31",
+        "province_code": "43",
+        "values": "\u0e2b\u0e19\u0e2d\u0e07\u0e04\u0e32\u0e22   ",
+        "value": "Nong Khai",
+        "geo_id": "3"
+    },
+    {
+        "id": "32",
+        "province_code": "44",
+        "values": "\u0e21\u0e2b\u0e32\u0e2a\u0e32\u0e23\u0e04\u0e32\u0e21   ",
+        "value": "Maha Sarakham",
+        "geo_id": "3"
+    },
+    {
+        "id": "33",
+        "province_code": "45",
+        "values": "\u0e23\u0e49\u0e2d\u0e22\u0e40\u0e2d\u0e47\u0e14   ",
+        "value": "Roi Et",
+        "geo_id": "3"
+    },
+    {
+        "id": "34",
+        "province_code": "46",
+        "values": "\u0e01\u0e32\u0e2c\u0e2a\u0e34\u0e19\u0e18\u0e38\u0e4c   ",
+        "value": "Kalasin",
+        "geo_id": "3"
+    },
+    {
+        "id": "35",
+        "province_code": "47",
+        "values": "\u0e2a\u0e01\u0e25\u0e19\u0e04\u0e23   ",
+        "value": "Sakon Nakhon",
+        "geo_id": "3"
+    },
+    {
+        "id": "36",
+        "province_code": "48",
+        "values": "\u0e19\u0e04\u0e23\u0e1e\u0e19\u0e21   ",
+        "value": "Nakhon Phanom",
+        "geo_id": "3"
+    },
+    {
+        "id": "37",
+        "province_code": "49",
+        "values": "\u0e21\u0e38\u0e01\u0e14\u0e32\u0e2b\u0e32\u0e23   ",
+        "value": "Mukdahan",
+        "geo_id": "3"
+    },
+    {
+        "id": "38",
+        "province_code": "50",
+        "values": "\u0e40\u0e0a\u0e35\u0e22\u0e07\u0e43\u0e2b\u0e21\u0e48   ",
+        "value": "Chiang Mai",
+        "geo_id": "1"
+    },
+    {
+        "id": "39",
+        "province_code": "51",
+        "values": "\u0e25\u0e33\u0e1e\u0e39\u0e19   ",
+        "value": "Lamphun",
+        "geo_id": "1"
+    },
+    {
+        "id": "40",
+        "province_code": "52",
+        "values": "\u0e25\u0e33\u0e1b\u0e32\u0e07   ",
+        "value": "Lampang",
+        "geo_id": "1"
+    },
+    {
+        "id": "41",
+        "province_code": "53",
+        "values": "\u0e2d\u0e38\u0e15\u0e23\u0e14\u0e34\u0e15\u0e16\u0e4c   ",
+        "value": "Uttaradit",
+        "geo_id": "1"
+    },
+    {
+        "id": "42",
+        "province_code": "54",
+        "values": "\u0e41\u0e1e\u0e23\u0e48   ",
+        "value": "Phrae",
+        "geo_id": "1"
+    },
+    {
+        "id": "43",
+        "province_code": "55",
+        "values": "\u0e19\u0e48\u0e32\u0e19   ",
+        "value": "Nan",
+        "geo_id": "1"
+    },
+    {
+        "id": "44",
+        "province_code": "56",
+        "values": "\u0e1e\u0e30\u0e40\u0e22\u0e32   ",
+        "value": "Phayao",
+        "geo_id": "1"
+    },
+    {
+        "id": "45",
+        "province_code": "57",
+        "values": "\u0e40\u0e0a\u0e35\u0e22\u0e07\u0e23\u0e32\u0e22   ",
+        "value": "Chiang Rai",
+        "geo_id": "1"
+    },
+    {
+        "id": "46",
+        "province_code": "58",
+        "values": "\u0e41\u0e21\u0e48\u0e2e\u0e48\u0e2d\u0e07\u0e2a\u0e2d\u0e19   ",
+        "value": "Mae Hong Son",
+        "geo_id": "1"
+    },
+    {
+        "id": "47",
+        "province_code": "60",
+        "values": "\u0e19\u0e04\u0e23\u0e2a\u0e27\u0e23\u0e23\u0e04\u0e4c   ",
+        "value": "Nakhon Sawan",
+        "geo_id": "2"
+    },
+    {
+        "id": "48",
+        "province_code": "61",
+        "values": "\u0e2d\u0e38\u0e17\u0e31\u0e22\u0e18\u0e32\u0e19\u0e35   ",
+        "value": "Uthai Thani",
+        "geo_id": "2"
+    },
+    {
+        "id": "49",
+        "province_code": "62",
+        "values": "\u0e01\u0e33\u0e41\u0e1e\u0e07\u0e40\u0e1e\u0e0a\u0e23   ",
+        "value": "Kamphaeng Phet",
+        "geo_id": "2"
+    },
+    {
+        "id": "50",
+        "province_code": "63",
+        "values": "\u0e15\u0e32\u0e01   ",
+        "value": "Tak",
+        "geo_id": "4"
+    },
+    {
+        "id": "51",
+        "province_code": "64",
+        "values": "\u0e2a\u0e38\u0e42\u0e02\u0e17\u0e31\u0e22   ",
+        "value": "Sukhothai",
+        "geo_id": "2"
+    },
+    {
+        "id": "52",
+        "province_code": "65",
+        "values": "\u0e1e\u0e34\u0e29\u0e13\u0e38\u0e42\u0e25\u0e01   ",
+        "value": "Phitsanulok",
+        "geo_id": "2"
+    },
+    {
+        "id": "53",
+        "province_code": "66",
+        "values": "\u0e1e\u0e34\u0e08\u0e34\u0e15\u0e23   ",
+        "value": "Phichit",
+        "geo_id": "2"
+    },
+    {
+        "id": "54",
+        "province_code": "67",
+        "values": "\u0e40\u0e1e\u0e0a\u0e23\u0e1a\u0e39\u0e23\u0e13\u0e4c   ",
+        "value": "Phetchabun",
+        "geo_id": "2"
+    },
+    {
+        "id": "55",
+        "province_code": "70",
+        "values": "\u0e23\u0e32\u0e0a\u0e1a\u0e38\u0e23\u0e35   ",
+        "value": "Ratchaburi",
+        "geo_id": "4"
+    },
+    {
+        "id": "56",
+        "province_code": "71",
+        "values": "\u0e01\u0e32\u0e0d\u0e08\u0e19\u0e1a\u0e38\u0e23\u0e35   ",
+        "value": "Kanchanaburi",
+        "geo_id": "4"
+    },
+    {
+        "id": "57",
+        "province_code": "72",
+        "values": "\u0e2a\u0e38\u0e1e\u0e23\u0e23\u0e13\u0e1a\u0e38\u0e23\u0e35   ",
+        "value": "Suphan Buri",
+        "geo_id": "2"
+    },
+    {
+        "id": "58",
+        "province_code": "73",
+        "values": "\u0e19\u0e04\u0e23\u0e1b\u0e10\u0e21   ",
+        "value": "Nakhon Pathom",
+        "geo_id": "2"
+    },
+    {
+        "id": "59",
+        "province_code": "74",
+        "values": "\u0e2a\u0e21\u0e38\u0e17\u0e23\u0e2a\u0e32\u0e04\u0e23   ",
+        "value": "Samut Sakhon",
+        "geo_id": "2"
+    },
+    {
+        "id": "60",
+        "province_code": "75",
+        "values": "\u0e2a\u0e21\u0e38\u0e17\u0e23\u0e2a\u0e07\u0e04\u0e23\u0e32\u0e21   ",
+        "value": "Samut Songkhram",
+        "geo_id": "2"
+    },
+    {
+        "id": "61",
+        "province_code": "76",
+        "values": "\u0e40\u0e1e\u0e0a\u0e23\u0e1a\u0e38\u0e23\u0e35   ",
+        "value": "Phetchaburi",
+        "geo_id": "4"
+    },
+    {
+        "id": "62",
+        "province_code": "77",
+        "values": "\u0e1b\u0e23\u0e30\u0e08\u0e27\u0e1a\u0e04\u0e35\u0e23\u0e35\u0e02\u0e31\u0e19\u0e18\u0e4c   ",
+        "value": "Prachuap Khiri Khan",
+        "geo_id": "4"
+    },
+    {
+        "id": "63",
+        "province_code": "80",
+        "values": "\u0e19\u0e04\u0e23\u0e28\u0e23\u0e35\u0e18\u0e23\u0e23\u0e21\u0e23\u0e32\u0e0a   ",
+        "value": "Nakhon Si Thammarat",
+        "geo_id": "6"
+    },
+    {
+        "id": "64",
+        "province_code": "81",
+        "values": "\u0e01\u0e23\u0e30\u0e1a\u0e35\u0e48   ",
+        "value": "Krabi",
+        "geo_id": "6"
+    },
+    {
+        "id": "65",
+        "province_code": "82",
+        "values": "\u0e1e\u0e31\u0e07\u0e07\u0e32   ",
+        "value": "Phangnga",
+        "geo_id": "6"
+    },
+    {
+        "id": "66",
+        "province_code": "83",
+        "values": "\u0e20\u0e39\u0e40\u0e01\u0e47\u0e15   ",
+        "value": "Phuket",
+        "geo_id": "6"
+    },
+    {
+        "id": "67",
+        "province_code": "84",
+        "values": "\u0e2a\u0e38\u0e23\u0e32\u0e29\u0e0e\u0e23\u0e4c\u0e18\u0e32\u0e19\u0e35   ",
+        "value": "Surat Thani",
+        "geo_id": "6"
+    },
+    {
+        "id": "68",
+        "province_code": "85",
+        "values": "\u0e23\u0e30\u0e19\u0e2d\u0e07   ",
+        "value": "Ranong",
+        "geo_id": "6"
+    },
+    {
+        "id": "69",
+        "province_code": "86",
+        "values": "\u0e0a\u0e38\u0e21\u0e1e\u0e23   ",
+        "value": "Chumphon",
+        "geo_id": "6"
+    },
+    {
+        "id": "70",
+        "province_code": "90",
+        "values": "\u0e2a\u0e07\u0e02\u0e25\u0e32   ",
+        "value": "Songkhla",
+        "geo_id": "6"
+    },
+    {
+        "id": "71",
+        "province_code": "91",
+        "values": "\u0e2a\u0e15\u0e39\u0e25   ",
+        "value": "Satun",
+        "geo_id": "6"
+    },
+    {
+        "id": "72",
+        "province_code": "92",
+        "values": "\u0e15\u0e23\u0e31\u0e07   ",
+        "value": "Trang",
+        "geo_id": "6"
+    },
+    {
+        "id": "73",
+        "province_code": "93",
+        "values": "\u0e1e\u0e31\u0e17\u0e25\u0e38\u0e07   ",
+        "value": "Phatthalung",
+        "geo_id": "6"
+    },
+    {
+        "id": "74",
+        "province_code": "94",
+        "values": "\u0e1b\u0e31\u0e15\u0e15\u0e32\u0e19\u0e35   ",
+        "value": "Pattani",
+        "geo_id": "6"
+    },
+    {
+        "id": "75",
+        "province_code": "95",
+        "values": "\u0e22\u0e30\u0e25\u0e32   ",
+        "value": "Yala",
+        "geo_id": "6"
+    },
+    {
+        "id": "76",
+        "province_code": "96",
+        "values": "\u0e19\u0e23\u0e32\u0e18\u0e34\u0e27\u0e32\u0e2a   ",
+        "value": "Narathiwat",
+        "geo_id": "6"
+    },
+    {
+        "id": "77",
+        "province_code": "97",
+        "values": "\u0e1a\u0e36\u0e07\u0e01\u0e32\u0e2c",
+        "value": "Buogkan",
+        "geo_id": "3"
+    }
+]

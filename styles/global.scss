@@ -1,0 +1,195 @@
+//css for every website
+@use '@/styles/responsive.scss' as *;
+@import url('https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp');
+@import '@/assets/SegoeUI/styles.css';
+@import 'mixins';
+html,
+body {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    //overflow-y: auto;
+    //overflow-x: hidden;
+    @include body-text($fontsize);
+    @include respond-to($phone) {
+        @include body-text(14px);
+    }
+    #__nuxt,
+    #__layout {
+        width: 100%;
+        height: 100%;
+    }
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+}
+::selection {
+    background-color: tint($accent, 30%);
+    color: $white;
+}
+
+h1 {
+    @include title-text(2.25em);
+}
+
+h2 {
+    @include title-text(2em);
+}
+
+h3 {
+    @include title-text(2em);
+}
+
+h4 {
+    @include subtitle-text(1.5em);
+}
+
+h5 {
+    @include subtitle-text(1.125em);
+}
+
+h6 {
+    @include subtitle-text(0.875em);
+}
+
+a {
+    @include link-text(0.875em);
+}
+input {
+    @include input;
+    @include respond-to($phone) {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+}
+input[type='checkbox'] {
+    @include checkbox;
+}
+input[type='radio'] {
+    @include radio;
+}
+input[type='submit'] {
+    @include button;
+}
+::placeholder {
+    color: $border-color;
+}
+button {
+    @include button;
+    &.outline {
+        background-color: transparent;
+        border-color: $accent;
+        color: $accent;
+        &:hover,
+        &:active {
+            background-color: $accent;
+            color: $white;
+        }
+    }
+}
+textarea {
+    @include textarea;
+}
+// img {
+//     pointer-events: none;
+// }
+.hooper-next,
+.hooper-prev {
+    bottom: -43px;
+    top: auto !important;
+    &:hover {
+        background-color: transparent !important;
+    }
+    svg {
+        width: 50px !important;
+        height: 50px !important;
+        fill: $white;
+    }
+    @include respond-to($phone) {
+        svg {
+            width: 34px !important;
+            height: 34px !important;
+        }
+    }
+}
+.hooper-wrapper {
+    &:focus {
+        outline: 0;
+    }
+    .hooper-list {
+        &:focus {
+            outline: 0;
+        }
+    }
+}
+.row.apply {
+    justify-content: space-between;
+    position: relative;
+    display: flex;
+    width: 100%;
+    .paragraph {
+        .dropdown-wrapper {
+            .width-wrapper {
+                .input-group {
+                    width: 100%;
+                }
+                .drop-list {
+                    width: 100%;
+                }
+            }
+            .res-list-wrapper {
+                width: 200%;
+                @include respond-to($phone) {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+.img-wrapper {
+    img {
+        object-fit: cover;
+    }
+}
+
+.require {
+    input {
+        border-bottom-color: $accent;
+    }
+}
+.error-text {
+    color: $accent;
+    font-size: 12px;
+}
+.term-content-wrapper {
+    p {
+        padding: 5px 0;
+        h2 {
+            @include respond-to($phone) {
+                font-size: 18px;
+            }
+        }
+        p {
+            padding: 5px 0;
+            text-indent: 50px;
+        }
+        h6 {
+            margin-bottom: 10px;
+            span {
+                color: black !important;
+            }
+        }
+        hr {
+            border-top: 1px solid #800020;
+            margin: 32px 0 20px;
+        }
+    }
+}

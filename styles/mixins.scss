@@ -1,0 +1,254 @@
+@use '@/styles/responsive.scss' as *;
+@function tint($color, $perc) {
+    @return mix(white, $color, $perc);
+}
+@function shade($color, $perc) {
+    @return mix(black, $color, $perc);
+}
+//Typeface
+$fontface: 'Segoe UI';
+$fontsize: 16px;
+//Colors
+$primary: #444444;
+$accent: #800020;
+$light-accent: #e6cdd3;
+$hover-tab: #fdedf1;
+$disable: #dadada;
+$white: #fff;
+$black: #0c0104;
+$light-grey: #707070;
+$dark-grey: #4d4d4d;
+$grey: #858585;
+//Footer background
+$footer-color: #e6cdd3;
+$text-color: #333333;
+//image background
+$img-bg: #f7f8f9;
+//Border
+$border: #b1b1b2;
+$border-color: #bdbdbd;
+//Box shadow
+$box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+$hover-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+//dropdown
+$dropdown-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.3);
+$hover: #e1e1e1;
+//btn
+$facebook: #4267b2;
+//error
+$error: #f44336;
+//star
+$star: #fbb03b;
+//refundable
+$success: #157b05;
+//non refund
+$not-allow: #b36679;
+
+$navbarHeight: 78px;
+$footerHeight: 128px;
+
+@mixin title-text($size) {
+    font: {
+        family: $fontface;
+        weight: 400;
+        size: $size;
+    }
+    color: $accent;
+}
+
+@mixin subtitle-text($size) {
+    font: {
+        family: $fontface;
+        weight: 400;
+        size: $size;
+    }
+    color: tint($primary, 40%);
+}
+
+@mixin body-text($size) {
+    font: {
+        family: $fontface;
+        weight: 200;
+        size: $size;
+    }
+    color: $text-color;
+}
+
+@mixin link-text($size) {
+    font: {
+        family: $fontface;
+        weight: 200;
+        size: $size;
+    }
+    color: $accent;
+    &:hover {
+        color: shade($accent, 20%);
+    }
+}
+
+@mixin button-text {
+    font: {
+        family: $fontface;
+        weight: bold;
+        size: $fontsize;
+    }
+}
+
+@mixin button {
+    @include button-text;
+    padding: 10px 32px;
+    background-color: $accent;
+    outline: none;
+    border: 1px solid $accent;
+    border-radius: 5px;
+    color: $white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+    text-transform: capitalize;
+    @include respond-to($phone) {
+        font-size: 12px;
+        padding: 8px 8px;
+        width: 90px;
+        height: 40px;
+    }
+    &:hover {
+        background-color: shade($accent, 20%);
+        border-color: shade($accent, 20%);
+    }
+    &:disabled {
+        border-color: #bdbdbd;
+        background-color: #bdbdbd;
+        cursor: not-allowed;
+    }
+}
+
+@mixin button-outline {
+    @include button-text;
+    padding: 4px 32px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: $accent;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+    // &:hover {
+    //     background-color: shade($accent, 20%);
+    //     border-color: shade($accent, 20%);
+    //     color: $white;
+    // }
+}
+
+@mixin input {
+    @include body-text($fontsize);
+    appearance: none;
+    width: 100%;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid $border;
+    border-radius: 0;
+    padding: 8px 0;
+    &:hover,
+    &:focus {
+        border-color: $accent;
+    }
+}
+
+@mixin select {
+    @include body-text($fontsize);
+    appearance: none;
+    width: 100%;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    border-bottom: 1px solid $border;
+    padding: 8px 8px;
+    border-radius: 0;
+    &:hover,
+    &:focus {
+        border-color: $accent;
+    }
+}
+
+@mixin radio {
+    appearance: none;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 1px solid $border;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 10px;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: transparent;
+        transition: 0.3s;
+    }
+    &:checked::before {
+        background-color: $accent;
+    }
+}
+
+@mixin checkbox {
+    appearance: none;
+    cursor: pointer;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 1px solid $accent;
+    border-radius: 4px;
+    transition: 0.3s;
+    &:checked {
+        background-color: $accent;
+        border: 0;
+    }
+    &:hover:not(:checked) {
+        background-color: rgba($color: $accent, $alpha: 0.6);
+    }
+    &:checked::before {
+        content: '';
+        position: absolute;
+        left: 6.5px;
+        top: 1px;
+        width: 7px;
+        height: 15px;
+        border: solid #fff;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+}
+@mixin error-input {
+    color: $error;
+    input {
+        border-color: $accent;
+        color: $accent;
+    }
+}
+@mixin textarea {
+    @include body-text($fontsize);
+    appearance: none;
+    width: 100%;
+    outline: none;
+    border: 1px solid $border;
+    border-radius: 4px;
+    padding: 8px 8px;
+    resize: none;
+    margin: 10px 0;
+    &:hover,
+    &:focus {
+        border-color: $accent;
+    }
+}
