@@ -21,7 +21,7 @@
 # COPY --from=node /nuxt-app/dist/ /usr/share/nginx/html
 # COPY ./nginx-nuxt-app.conf /etc/nginx/conf.d/default.conf
 # Stage 1 - build
-FROM node:16.20.2-alpine as builder
+FROM node:22.20.2-alpine as builder
 WORKDIR /app
 COPY package.json ./
 RUN yarn install
