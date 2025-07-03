@@ -1,7 +1,7 @@
 import pkg from './package'
 
 export default {
-    mode: 'universal',
+    mode: 'spa',
 
     /*
      ** Headers of the page
@@ -53,19 +53,19 @@ export default {
      ** Plugins to load before mounting the App
      */
     plugins: [
-        // { src: '~/plugins/vue-awesome-swiper.js', ssr: true }
-        { src: '~/plugins/vue-carousel.js', ssr: true },
-        { src: '~/plugins/v-modal.js', ssr: true },
-        { src: '~/plugins/v-calendar.js', ssr: true },
-        { src: '~/plugins/vuelidate.js', ssr: true },
-        { src: '~/plugins/vuexPersist.js', ssr: true },
-        { src: '~/plugins/createInstance.js', ssr: true },
-        { src: '~/plugins/createRestInstance.js', ssr: true },
-        // { src: '~/plugins/firebase.js', ssr: true },
-        { src: '~/plugins/qrcode-promptpay.js', ssr: true },
-        { src: '~/plugins/hooper.js', ssr: true },
-        { src: '~/plugins/googleMap.js', ssr: true },
-        { src: '~/plugins/Cleave.js', ssr: true },
+        // { src: '~/plugins/vue-awesome-swiper.js', ssr: false }
+        { src: '~/plugins/vue-carousel.js', ssr: false },
+        { src: '~/plugins/v-modal.js', ssr: false },
+        { src: '~/plugins/v-calendar.js', ssr: false },
+        { src: '~/plugins/vuelidate.js', ssr: false },
+        { src: '~/plugins/vuexPersist.js', ssr: false },
+        { src: '~/plugins/createInstance.js', ssr: false },
+        { src: '~/plugins/createRestInstance.js', ssr: false },
+        // { src: '~/plugins/firebase.js', ssr: false },
+        { src: '~/plugins/qrcode-promptpay.js', ssr: false },
+        { src: '~/plugins/hooper.js', ssr: false },
+        { src: '~/plugins/googleMap.js', ssr: false },
+        { src: '~/plugins/Cleave.js', ssr: false },
     ],
 
     /*

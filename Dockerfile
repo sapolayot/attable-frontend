@@ -1,15 +1,12 @@
-# Stage 1 - Build
 FROM node:lts-alpine as builder
 WORKDIR /app
 COPY package.json ./
 RUN yarn install
 COPY . .
-RUN yarn build
+RUN yarn generate
 
-# Stage 2 - Production
-FROM node:lts-alpine as final
-WORKDIR /app
-COPY --from=builder /app ./
-ENV PORT=3000
-EXPOSE 3000
-CMD ["yarn", "start"]
+# Stage 2 - production
+FROM nginx:stable-alpine as final
+COPY --from=builder /app/dist /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
