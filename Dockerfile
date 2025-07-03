@@ -10,6 +10,6 @@ RUN yarn build
 FROM node:lts-alpine as final
 WORKDIR /app
 COPY --from=builder /app ./
-ENV PORT=80
-EXPOSE 80
+ENV PORT=3000
+EXPOSE 3000
 CMD ["yarn", "start"]
