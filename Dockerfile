@@ -12,4 +12,4 @@ WORKDIR /app
 COPY --from=builder /app ./
 ENV PORT=80
 EXPOSE 80
-CMD ["node", ".output/server/index.mjs"]
+CMD ["yarn", "start"]
